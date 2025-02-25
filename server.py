@@ -1,9 +1,11 @@
 import socket
 import random
 
-# Define and shuffle a deck of cards
+
+#Set up our deck
 deck = [f"{rank} of {suit}" for suit in ["Hearts", "Diamonds", "Clubs", "Spades"] 
         for rank in ["2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]]
+
 
 # Function to shuffle and reset the deck
 def reset_deck():
@@ -13,6 +15,7 @@ def reset_deck():
     random.shuffle(deck)
 
 reset_deck()
+
 
 # Function to draw a card and remove it from the deck
 def draw_card():
