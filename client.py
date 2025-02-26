@@ -1,5 +1,5 @@
 import socket
-
+import time
 # Start the client
 def start_client():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -13,7 +13,7 @@ def start_client():
         
         if "Goodbye" in data:
             break
-        
+        time.sleep(0.3)
         message = input("Enter your response: ").strip()
         client.sendall(message.encode())
     
