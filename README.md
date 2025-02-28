@@ -1,5 +1,8 @@
 # Black Jack server README
 ![alt text](image.png)
+## Video
+[Untitled Video February 27, 2025 10_41 AM.webm](https://github.com/user-attachments/assets/267c58ef-2492-4ada-b4f9-5e5c33eb40ca)
+
 ## Overview
 This is a simple network game of Black Jack by using Python. It allows a single player to connect and play against the dealer. 
 ## Features
